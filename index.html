@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixicat AI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="userInputcontainer box_00 box">
+        <div class="page_00">
+          <img
+            src="https://img.freepik.com/premium-photo/3d-illustration-rendering-futuristic-cyberpunk-city-gaming-wallpaper-scifi-background-esports-gamer-vs-banner-sign-neon-glow-versus-player-challenge_42100-5130.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698883200&semt=ais"
+            alt=""
+          />
+        </div>
+        <div class="page_01">
+          <div class="text_container">
+            <h2 class="f-text">Generate Image Beyond Your Imagination.</h2>
+            <p class="p-text">
+              Convert your text into an image within a second using this
+              JavaScript-powered AI Image Generator tool.
+            </p>
+          </div>
+
+          <div class="userinput_container">
+            <input type="text" id="imgdescription" placeholder="Describe your image!" />
+            <div>
+              <select name="" id="noofimage">
+                <option class="option" value="Select No" selected>Select No</option>
+                <option class="option" value="1">1</option>
+                <option class="option" value="2">2</option>
+                <option class="option" value="3">3</option>
+                <option class="option" value="4">4</option>
+              </select>
+              <button id="generateBtn" onclick="generateIt()">Generate It</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resultcontainer box_01 box">
+        <div class="image_container">
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
